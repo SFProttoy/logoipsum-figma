@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Common CSS Start */
+
+.common-p {
+  color: #181f1b;
+  font-size: 20.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158%; /* 37.92px */
+  letter-spacing: 0.48px;
+  opacity: 0.699999988079071;
+}
+
+.common-sm-1 {
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+
+  /* Drop Shadow */
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+}
+
+/* Common CSS End */
+
+/* Header Start */
+
+.navbar {
+  color: #fff;
+}
+
+.container-fluid {
+  margin: 7px 120px;
+}
+
+.navbar-nav {
+  margin-left: 143px;
+}
+
+.nav-link {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.product-link {
+  color: #1f8e3d;
+}
+
+.about-link {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.get-started-btn {
+  width: 163px;
+  height: 52px;
+  background: #58bf73;
+  border-radius: 10px;
+}
+
+.login-btn {
+  width: 112px;
+  height: 52px;
+  margin-left: 24px;
+  border-radius: 10px;
+}
+
+.login-btn:hover {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Header End */
+
+/* Banner start */
+
+.banner-left {
+  padding: 81px 96px 8px 100px;
+}
+
+.banner-left h1 {
+  color: #181f1b;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 114.188%;
+}
+
+.banner-left span {
+  font-weight: 600;
+}
+
+.viverra-btn {
+  width: 238px;
+  height: 52px;
+  color: #7c7c7c;
+  border-radius: 10px;
+  border: 1px solid #7c7c7c;
+  margin-right: 16px;
+}
+
+.viverra-btn:hover {
+  background-color: inherit;
+  color: #181f1b;
+}
+
+.demo-btn {
+  width: 238px;
+  height: 52px;
+  border-radius: 10px;
+  background: #58bf73;
+}
+
+.banner img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 820px;
+}
+
+/* Banner End */
+
+/* Main Start */
+
+/* Section 1 Start */
+
+.section-1 {
+  margin-top: 98px;
+}
+
+.section-1 h1 {
+  width: 1091px;
+  color: #181f1b;
+  text-align: center;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127%; /* 64.77px */
+  margin-bottom: 48px;
+}
+
+.table-1 {
+  width: 1350px;
+  margin-left: 70px;
+  border-collapse: collapse;
+}
+
+.table-1 thead {
+  height: 71px;
+  background: #e3e3e3;
+}
+
+.table-1 th {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+
+.table-1 td {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  border: 2px solid #fff;
+  border-radius: 10px;
+  /* This creates a gap of 10 pixels on all sides */
+}
+
+.table-1 .column-1 {
+  width: 169px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-2 {
+  width: 311px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-3 {
+  width: 237px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-4 {
+  width: 135px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-5 {
+  width: 189px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-6 {
+  width: 198px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-7 {
+  width: 144px;
+  height: 69px;
+  background: #93d1b5;
+}
+
+.table-1 .column-8 {
+  width: 139px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .column-9 {
+  width: 148px;
+  height: 69px;
+  background: #b4ecd2;
+}
+
+.table-1 .extra-39 {
+  background: #93d1b5;
+}
+
+.table-1 .extra-c-7 {
+  background: #b4ecd2;
+}
+
+.table-1 .extra-r-5 {
+  background: #64b992;
+}
+
+/* Section 1 End */
+
+/* Section 2 Start */
+
+.section-2 {
+  margin-top: 100px;
+}
+
+.sec-2-left {
+  margin-left: 70px;
+}
+
+.section-2 h1 {
+  margin-top: 174px;
+  color: #181f1b;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127%; /* 64.77px */
+}
+
+.section-2 span {
+  font-weight: 900;
+}
+
+.section-2 button {
+  width: 163px;
+  height: 52px;
+  margin-top: 48px;
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-weight: 600;
+  background: #58bf73;
+  border-radius: 10px;
+}
+
+.sm-col {
+  width: 200px;
+  padding: 0;
+}
+
+.sm-md-col {
+  margin-top: 90px;
+}
+
+.sm {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.section-2 img {
+  width: 50px;
+  height: 50px;
+  margin: 32px;
+}
+
+.fb-img {
+  margin: 32px;
+}
+
+/* Section 2 End */
+
+/* Section 3 Start */
+
+/* Section 3 End */
+
+/* Main End */
