@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Section2 = () => {
   return (
     <>
@@ -19,10 +21,12 @@ const Section2 = () => {
             <div className="row mx-auto">
               <div className="col-md-4 sm-col">
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-39.svg"
                     alt="banner"
                     className="img-fluid"
+                    width="73"
+                    height="73"
                   />
                 </span>
 
@@ -43,9 +47,11 @@ const Section2 = () => {
                 </span>
 
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-54.svg"
                     alt="banner"
+                    width="63"
+                    height="64"
                     className="img-fluid"
                   />
                 </span>
@@ -53,25 +59,31 @@ const Section2 = () => {
 
               <div className="col-md-4 sm-col sm-md-col">
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-65.svg"
                     alt="banner"
+                    width="66"
+                    height="66"
                     className="img-fluid"
                   />
                 </span>
 
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-66.svg"
                     alt="banner"
+                    width="67"
+                    height="67"
                     className="img-fluid"
                   />
                 </span>
 
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-67.svg"
                     alt="banner"
+                    width="76"
+                    height="76"
                     className="img-fluid"
                   />
                 </span>
@@ -79,25 +91,31 @@ const Section2 = () => {
 
               <div className="col-md-4 sm-col">
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-68.svg"
                     alt="banner"
+                    width="92"
+                    height="92"
                     className="img-fluid"
                   />
                 </span>
 
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-69.svg"
                     alt="banner"
+                    width="67"
+                    height="52"
                     className="img-fluid"
                   />
                 </span>
 
                 <span className="common-sm-1 sm">
-                  <img
+                  <Image
                     src="/images/image-70.svg"
                     alt="banner"
+                    width="68"
+                    height="68"
                     className="img-fluid"
                   />
                 </span>

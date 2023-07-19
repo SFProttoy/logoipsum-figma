@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Section6 = () => {
   return (
     <section className="section-6">
@@ -14,13 +16,25 @@ const Section6 = () => {
         <div className="d-flex">
           <div>
             <div className="box">
-              <img src="/images/p1.svg" alt="poll-1" className="" />
+              <Image
+                src="/images/p1.svg"
+                alt="poll-1"
+                width="103"
+                height="146"
+                className=""
+              />
             </div>
             <div className="common-div mt-2">First touch</div>
           </div>
           <div>
             <div className="box">
-              <img src="/images/p2.svg" alt="poll-2" className="" />
+              <Image
+                src="/images/p2.svg"
+                alt="poll-2"
+                width="103"
+                height="145"
+                className=""
+              />
             </div>
             <div className="common-div mt-2" style={{ color: "#FFC646" }}>
               Last touch

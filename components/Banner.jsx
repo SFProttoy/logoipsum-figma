@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Banner = () => {
   return (
     <div className="banner">
@@ -34,11 +36,11 @@ const Banner = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <img
+          <Image
             src="/images/Rectangle.svg"
             alt="banner"
-            // width="240px"
-            // height="40px"
+            width="974"
+            height="1046"
             className="img-fluid"
           />
         </div>

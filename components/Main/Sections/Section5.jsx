@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Section5 = () => {
   return (
     <section className="section-5 text-center">
@@ -10,9 +12,10 @@ const Section5 = () => {
         tempor incididunt ut labore
       </p>
 
-      <img
+      <Image
         src="/images/chart.png"
         width="1300"
+        height="304"
         alt="chart"
         className="img-fluid mt-5"
       />

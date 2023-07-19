@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Header = () => {
   return (
     <>
@@ -5,11 +7,11 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img
+              <Image
                 src="/images/Logo.svg"
                 alt="Logo"
-                width="240px"
-                height="40px"
+                width="240"
+                height="40"
                 className="d-inline-block align-text-top"
               />
             </a>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Section7 = () => {
   return (
     <section className="section-7 text-center">
@@ -32,10 +34,11 @@ const Section7 = () => {
         <div>
           <div className="common-sm-1 m-2">
             <span>
-              <img
+              <Image
                 src="/images/image-39.svg"
                 alt="banner"
-                className="img-fluid"
+                width="60"
+                height="93"
                 className="sm-img-2"
               />
             </span>
@@ -43,10 +46,11 @@ const Section7 = () => {
 
           <div className="common-sm-1 m-2">
             <span>
-              <img
+              <Image
                 src="/images/image-54.svg"
                 alt="banner"
-                className="img-fluid"
+                width="60"
+                height="93"
                 className="sm-img-2"
               />
             </span>
