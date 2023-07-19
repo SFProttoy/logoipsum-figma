@@ -533,4 +533,57 @@ body {
 
 /* Section 4 End */
 
+/* Section 5 Start */
+
+.section-5 {
+  margin-top: 150px;
+}
+
+.tables {
+  display: flex;
+  width: 1200px;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+.tables .title {
+  color: #181f1b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+}
+
+.tables .table-1 thead {
+  width: 600px;
+  height: 71px;
+  border-radius: 10px;
+  opacity: 0.6000000238418579;
+  background: #e3e3e3;
+}
+
+.tables .column-1 {
+  width: 300px;
+  height: 69px;
+  border-radius: 6px;
+  background: #b4ecd2;
+}
+
+.tables .column-2 {
+  width: 160px;
+  height: 69px;
+  border-radius: 6px;
+  background: #b4ecd2;
+}
+
+.tables .column-3 {
+  width: 161px;
+  height: 69px;
+  border-radius: 6px;
+  background: #b4ecd2;
+}
+
+/* Section 5 End */
+
 /* Main End */
