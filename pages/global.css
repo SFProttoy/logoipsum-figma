@@ -638,4 +638,41 @@ body {
 
 /* Section 6 End */
 
+/* Section 7 Start*/
+
+.section-7 {
+  margin-top: 150px;
+}
+
+.sm-boxes {
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.section-7 .m-1 {
+  width: 194.412px;
+  height: 194.412px;
+  margin-top: 110px !important;
+}
+
+.fb-img-2 {
+  width: 40px;
+  height: 80px;
+  margin-top: 45px;
+}
+
+.section-7 .m-2 {
+  width: 194.412px;
+  height: 194.412px;
+  margin-left: 20px;
+}
+
+.sm-img-2 {
+  width: 60px;
+  height: 92.611px;
+  margin-top: 45px;
+}
+
+/* Section 7 End */
+
 /* Main End */
