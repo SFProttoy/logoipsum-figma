@@ -13,6 +13,15 @@ body {
 
 /* Common CSS Start */
 
+.common-h1 {
+  color: #181f1b;
+  font-family: Roboto;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127%; /* 64.77px */
+}
+
 .common-p {
   color: #181f1b;
   font-size: 20.5px;
@@ -391,5 +400,137 @@ body {
 }
 
 /* Section 3 End */
+
+/* Section 4 Start */
+
+.section-4 {
+  display: flex;
+  margin-left: 70px;
+}
+
+.sec-4-left p {
+  color: #181f1b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158%; /* 37.92px */
+  letter-spacing: 0.48px;
+  margin-bottom: 86px;
+}
+
+.option {
+  display: flex;
+  width: 510px;
+  height: 72px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+  margin-bottom: 18px;
+
+  /* Drop Shadow */
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+  color: #161d25;
+  padding: 20px;
+}
+
+.option p {
+  margin-left: 14px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sec-4-right {
+  width: 814px;
+  height: 500px;
+  margin-top: 85px;
+  margin-right: 117px;
+  margin-left: 30px;
+  border-radius: 14px;
+  background: #e9e9e9;
+  box-shadow: 0px 22px 30px 0px rgba(16, 112, 41, 0.08);
+}
+
+.sec-4-right .left {
+  width: 99px;
+  height: 500px;
+  border-radius: 14px 0px 0px 14px;
+  background: #b4ecd2;
+  margin-right: 25px;
+}
+
+.left .span {
+  width: 65.419px;
+  height: 22.962px;
+  border-radius: 4px;
+  background: #93d1b5;
+  margin: 25px 15px;
+}
+
+.left .span-last {
+  width: 65.419px;
+  height: 22.962px;
+  border-radius: 4px;
+  background: #93d1b5;
+  margin: 215px 15px;
+}
+
+.right .chart {
+  position: relative;
+  width: 635px;
+  height: 145px;
+  margin-top: 117px;
+  margin-bottom: 25px;
+}
+
+.chart svg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.table-2 {
+  width: 635px;
+  margin-right: 24px;
+  color: #000;
+}
+
+.table-2 thead {
+  height: 35px;
+  border-radius: 4px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  color: #000;
+  background: #93d1b5;
+}
+
+.table-2 tbody tr {
+  height: 46px;
+  border-radius: 4px;
+  border-bottom: 1px solid #fff;
+  opacity: 0.7;
+  background: #ebf7f1;
+}
+
+.table-2 tbody td {
+  color: #243a2c;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 156%; /* 24.96px */
+}
+
+.table-2 .column-5 {
+  color: #3bb25b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 156%; /* 24.96px */
+}
+
+/* Section 4 End */
 
 /* Main End */
