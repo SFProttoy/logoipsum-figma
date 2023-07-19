@@ -586,4 +586,56 @@ body {
 
 /* Section 5 End */
 
+/* Section 6 Start */
+
+.section-6 {
+  margin-top: 150px;
+  margin-left: 185px;
+}
+
+.section-6 .box {
+  width: 184.986px;
+  height: 196px;
+  margin-left: 30px;
+  /* margin-bottom: 10px; */
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+
+  /* Drop Shadow */
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+}
+
+.box img {
+  width: 92px;
+  height: 144px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+
+.section-6 .common-div {
+  width: 184.994px;
+  height: 46.074px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+  padding-left: 26px;
+
+  /* Drop Shadow */
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+
+  color: #58bf73;
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158%; /* 44.24px */
+  letter-spacing: 0.56px;
+}
+
+/* Section 6 End */
+
 /* Main End */
