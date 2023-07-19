@@ -321,6 +321,75 @@ body {
 
 /* Section 3 Start */
 
+.section-3 {
+  margin-top: 160px;
+}
+
+.sec-3-cards {
+  margin-left: 140px;
+  margin-right: 100px;
+  margin-bottom: 160px;
+}
+
+.card-1 {
+  width: 400px;
+  height: 380px;
+  padding: 50px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+  margin-right: 10px;
+  /* Drop Shadow */
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+}
+
+.card-1 span {
+  width: 53.667px;
+  height: 39.667px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 33px;
+  border: 0.5px solid #fff;
+  background: linear-gradient(
+      0deg,
+      rgba(132, 212, 118, 0.65) 0%,
+      rgba(132, 212, 118, 0.65) 100%
+    ),
+    rgba(241, 241, 241, 0.1);
+  backdrop-filter: blur(0.5px);
+
+  color: #fff;
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 8px;
+  padding-left: 11px;
+  transform: translate(-75%, -50%);
+  margin-top: 30px;
+}
+
+.card-1 h1 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 145.455% */
+  letter-spacing: -0.11px;
+}
+
+.card-1 p {
+  color: rgba(10, 10, 10, 0.85);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  opacity: 0.699999988079071;
+  margin-top: 17px;
+}
+
 /* Section 3 End */
 
 /* Main End */
