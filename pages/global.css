@@ -675,4 +675,53 @@ body {
 
 /* Section 7 End */
 
+/* Section 8 Start */
+
+.section-8 {
+  margin-top: 80px;
+}
+
+.section-8 thead {
+  height: 71px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0.6000000238418579;
+  background: #bbe5c9;
+}
+
+.section-8 .column-1 {
+  width: 400px;
+  height: 59px;
+  border-radius: 6px;
+  background: #b4ecd2;
+}
+
+/* Section 8 End */
+
+/* Section 9 Start */
+
+.section-9 {
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+.section-9 button {
+  width: 219px;
+  height: 75px;
+  margin-top: 48px;
+  margin-left: 50px;
+  /* padding: 20px; */
+
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-weight: 600;
+  background: #58bf73;
+  border-radius: 10px;
+}
+
+/* Section 9 End */
+
 /* Main End */
