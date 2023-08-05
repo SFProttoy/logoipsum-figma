@@ -17,7 +17,7 @@ const Section5 = () => {
         width="1300"
         height="304"
         alt="chart"
-        className="img-fluid mt-5"
+        className="img-fluid mt-5 img-chart"
       />
 
       <div className="tables">

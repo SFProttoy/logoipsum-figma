@@ -8,7 +8,9 @@ html,
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
-  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  /* overflow-x: hidden; */
 }
 
 /* Common CSS Start */
@@ -724,6 +726,8 @@ body {
 
 /* Section 9 End */
 
+/* Main End */
+
 /* Footer start */
 
 .footer {
@@ -792,4 +796,32 @@ body {
 
 /* Footer End */
 
-/* Main End */
+@media screen and (max-width: 767px) {
+  /* .section-1 {
+    width: 200px;
+  } */
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .table-1 {
+    width: 1100px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .table-1 {
+    width: 1270px;
+    margin-left: 50px;
+  }
+  .card-1 {
+    width: 370px;
+  }
+  .option {
+    width: 460px;
+    height: 60px;
+  }
+  .img-chart {
+    width: 1100px;
+  }
+  .tables {
+    width: 1100px;
+  }
+}

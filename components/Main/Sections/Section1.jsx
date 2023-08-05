@@ -1,7 +1,7 @@
 const Section1 = () => {
   return (
     <>
-      <section className="section-1">
+      <section className="section-1 col-md-12 col-sm-12">
         <h1 className="mx-auto">
           Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
           suscipit
